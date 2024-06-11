@@ -55,6 +55,7 @@ For example, Dying Light uses the following mapping:
 | fx | .fx |
 | text | .txt |
 | binary | .bin |
+
 (as found in `\Engine\Data\ResourcePackCfg.scr` of the [Dying Light Developer Tools](https://store.steampowered.com/app/239140/))
 
 
