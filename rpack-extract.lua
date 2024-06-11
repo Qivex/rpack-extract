@@ -1,6 +1,6 @@
 local cdef = [[
-int fwrite(const void *data, size_t length, size_t count, void *rpackFile);
-int fread(void *data, size_t length, size_t count, void *rpackFile);
+int fwrite(const void *data, size_t length, size_t count, void *file);
+int fread(void *data, size_t length, size_t count, void *file);
 int uncompress(uint8_t *dest, unsigned long *destLen, const uint8_t *source, unsigned long sourceLen);
 
 typedef struct {

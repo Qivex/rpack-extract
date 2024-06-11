@@ -22,8 +22,8 @@ local decompressIntoMemory = false
 --------------------
 
 local stdio_cdef = [[
-int fwrite(const void *data, size_t length, size_t count, void *rpackFile);
-int fread(void *data, size_t length, size_t count, void *rpackFile);
+int fwrite(const void *data, size_t length, size_t count, void *file);
+int fread(void *data, size_t length, size_t count, void *file);
 ]]
 
 
